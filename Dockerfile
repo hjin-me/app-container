@@ -10,4 +10,3 @@ RUN locale-gen zh_CN.UTF-8; \
     update-locale zh_CN.UTF-8;
 RUN cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime;
 ENV TZ Asia/Shanghai
-CMD app
